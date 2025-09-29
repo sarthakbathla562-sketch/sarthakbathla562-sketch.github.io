@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Clayton Kershaw — Legacy</title>
+  <meta name="description" content="A short site about Clayton Kershaw and his legacy as a pitcher. Includes career highlights, timeline, and community work.">
+  <style>
+    :root{--dodger:#005A9C;--light:#f7f9fb;--text:#111}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);background:linear-gradient(180deg,var(--light),#fff)}
+    header{background:var(--dodger);color:white;padding:2rem 1rem;text-align:center}
+    header h1{margin:.2rem 0;font-size:clamp(1.6rem,3vw,2.4rem)}
+    header p{margin:0;opacity:.95}
+    .container{max-width:980px;margin:2rem auto;padding:0 1rem}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:1rem;align-items:center}
+    .hero img{width:100%;height:auto;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.12)}
+    .card{background:white;padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,.06)}
+    h2{color:var(--dodger);margin-top:0}
+    ul.bullets{padding-left:1.2rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    footer{margin:2rem 0;padding:1rem;text-align:center;color:#444}
+    a.cta{display:inline-block;background:var(--dodger);color:white;padding:.5rem .9rem;border-radius:8px;text-decoration:none}
+    @media (max-width:780px){.hero{grid-template-columns:1fr}header{padding:1.2rem}}
+    /* subtle typography */
+    small.muted{color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clayton Kershaw</h1>
+    <p>Legacy, highlights, and community work from one of baseball's most accomplished left-handed pitchers.</p>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h2>About</h2>
+        <p>Clayton Kershaw has been one of the defining pitchers of his generation. This page summarizes his most important achievements on the mound and the ways he has given back outside baseball.</p>
+
+        <h3>Quick facts</h3>
+        <ul class="bullets">
+          <li>Position: Left-handed starting pitcher</li>
+          <li>Team: Los Angeles Dodgers (career-long)</li>
+          <li>Highlights: Multiple Cy Young Awards, ERA titles, All-Star selections</li>
+        </ul>
+
+        <h3>Why he matters</h3>
+        <ol>
+          <li>Consistent excellence: Kershaw combined elite command with dominant secondary pitches for many seasons.</li>
+          <li>Historical achievements: multiple Cy Youngs, ERA titles, and a no-hitter among his accomplishments.</li>
+          <li>Community leadership: active in charity work and recognized for sportsmanship.</li>
+        </ol>
+
+        <p><a class="cta" href="#timeline">See career timeline</a> <small class="muted">•</small> <a href="https://en.wikipedia.org/wiki/Clayton_Kershaw" target="_blank" rel="noopener">Full biography (Wikipedia)</a></p>
+      </div>
+
+      <aside>
+        <!-- Replace these local images with the two files you download from Wikimedia Commons (instructions below) -->
+        <img src="images/kershaw_pitching.jpg" alt="Clayton Kershaw pitching" loading="lazy">
+        <div style="height:12px"></div>
+        <img src="images/kershaw_portrait.jpg" alt="Clayton Kershaw portrait" loading="lazy">
+      </aside>
+    </section>
+
+    <section class="card" id="legacy" style="margin-top:1rem">
+      <h2>Legacy as a Pitcher</h2>
+      <div class="grid">
+        <div>
+          <h4>Pitching style</h4>
+          <p>Kershaw is known for his curveball, excellent command, and ability to change speeds. He used deception and movement more than pure fastball velocity to dominate hitters.</p>
+        </div>
+        <div>
+          <h4>Career highlights</h4>
+          <ul>
+            <li>Three-time Cy Young Award winner</li>
+            <li>Multiple ERA titles and All-Star selections</li>
+            <li>No-hitter on June 18, 2014</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="timeline" style="margin-top:1rem">
+      <h2>Career Timeline</h2>
+      <ol>
+        <li><strong>2008</strong> — MLB debut with the Los Angeles Dodgers.</li>
+        <li><strong>2011</strong> — Breakout season: Cy Young, ERA title, and other awards.</li>
+        <li><strong>2014</strong> — NL MVP and no-hitter in June.</li>
+        <li><strong>2010s–2020s</strong> — Sustained excellence and community leadership off the field.</li>
+      </ol>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Charity & Community</h2>
+      <p>Kershaw and his family have supported multiple charitable causes. He co-founded Kershaw's Challenge, an organization that funds projects related to children and families in need.</p>
+      <p><small class="muted">Note: please verify specific charities and donation links before sharing publicly.</small></p>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Clayton_Kershaw" target="_blank" rel="noopener">Clayton Kershaw — Wikipedia</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/Category:Clayton_Kershaw" target="_blank" rel="noopener">Photos to download (Wikimedia Commons)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p class="muted">This site was created for a GitHub Pages assignment. To publish: add these files to a repository and enable Pages in the repository settings.</p>
+    </footer>
+  </main>
+</body>
+</html>
